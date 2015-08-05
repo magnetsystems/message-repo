@@ -3,7 +3,7 @@
   <remote  name="github-magnet"
            fetch="ssh://git@github.com/magnetsystems"
            />
-  <default revision="master"
+  <default revision="develop"
            remote="github-magnet"
            sync-j="4" />
 
