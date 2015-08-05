@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github-magnet"
+           fetch="ssh://git@github.com/magnetsystems"
+           />
+  <default revision="develop"
+           remote="github-magnet"
+           sync-j="4" />
+
+  <!-- build stuff -->
+  <!--project path="build" name="platform/build" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project-->
+
+  <project name="message-common" />
+  <project name="message-openfire" />
+  <project name="message-server" />
+  <project name="message-sdk-java-android" />
+  <project name="message-smack" />
+  <project name="message-asmack" />
+  <project name="message-console" />
+  <project name="message-console-server" />
+  <project name="message-ios" />
+  <project name="message-samples-android" />
+  <project name="message-samples-ios" />
+
+</manifest>
+
