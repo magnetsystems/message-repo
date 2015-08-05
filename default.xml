@@ -3,7 +3,7 @@
   <remote  name="github-magnet"
            fetch="ssh://git@github.com/magnetsystems"
            />
-  <default revision="develop"
+  <default revision="master"
            remote="github-magnet"
            sync-j="4" />
 
@@ -12,17 +12,22 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project-->
 
+  <!-- 1st party repos -->
   <project name="message-common" />
-  <project name="message-openfire" />
   <project name="message-server" />
   <project name="message-sdk-java-android" />
-  <project name="message-smack" />
-  <project name="message-asmack" />
   <project name="message-console" />
   <project name="message-console-server" />
   <project name="message-ios" />
-  <project name="message-samples-android" />
-  <project name="message-samples-ios" />
+
+  <!-- sample apps only have a master branch -->
+  <project name="message-samples-android" revision="master" />
+  <project name="message-samples-ios" revision="master" />
+
+  <!-- pseudo-3rd party repos -->
+  <project name="message-smack" revision="4.0.7-magnet" />
+  <project name="message-asmack" revision="4.0.7-magnet" />
+  <project name="message-openfire" />
 
 </manifest>
 
