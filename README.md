@@ -6,6 +6,7 @@ This repo contains a manifest file that can be used by the "repo" script to retr
 
 To use:
 1.  Install Repo:
+
     ```
     $ mkdir ~/bin
     $ PATH=~/bin:$PATH
@@ -13,15 +14,18 @@ To use:
     $ chmod a+x ~/bin/repo
     ```
 2. Create a directory for your source:
+
     ```
     $ mkdir ~/Projects/message
     $ cd ~/Projects/message
     ```
 3. Initialize the repo:
+
     ```
     $ repo init -u git@github.com:magnetsystems/message-repo
     ```
 4. Download the source:
+
     ```
     $ repo sync
     ```
