@@ -5,6 +5,7 @@ August 10, 2015
 This repo contains a manifest file that can be used by the "repo" script to retrieve the various components of Magnet Message.
 
 To use:
+
 1.  Install Repo:
 
     ```
