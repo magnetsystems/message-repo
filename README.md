@@ -5,26 +5,26 @@ August 10, 2015
 This repo contains a manifest file that can be used by the "repo" script to retrieve the various components of Magnet Message.
 
 To use:
-  1.  Install Repo:
-```bash
-$ mkdir ~/bin
-$ PATH=~/bin:$PATH
-$ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
-$ chmod a+x ~/bin/repo
-```
-  2.  Create a directory for your source:
-```
-$ mkdir ~/Projects/message
-$ cd ~/Projects/message
-```
-  3.  Initialize the repo:
-```
-$ repo init -u git@github.com:magnetsystems/message-repo
-```
-  4.  Download the source:
-```
-$ repo sync
-```
+1.  Install Repo:
+    ```
+    $ mkdir ~/bin
+    $ PATH=~/bin:$PATH
+    $ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+    $ chmod a+x ~/bin/repo
+    ```
+2. Create a directory for your source:
+    ```
+    $ mkdir ~/Projects/message
+    $ cd ~/Projects/message
+    ```
+3. Initialize the repo:
+    ```
+    $ repo init -u git@github.com:magnetsystems/message-repo
+    ```
+4. Download the source:
+    ```
+    $ repo sync
+    ```
  
 For installation or troubleshooting information, refer to ‘troubleshooting’ in this distribution or Magnet Message Developer Guide located on the web at https://www.magnet.com/developer/magnet-message/
 
