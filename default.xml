@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="github-magnet"
+  <remote  name="origin"
            fetch="ssh://git@github.com/magnetsystems"
            />
   <default revision="develop"
-           remote="github-magnet"
+           remote="origin"
            sync-j="4" />
 
   <!-- build stuff -->
