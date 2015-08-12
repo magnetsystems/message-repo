@@ -78,54 +78,6 @@ For more details on Magnet Message, please visit: https://www.magnet.com/develop
 
 ---
 
-##Known Issues
- - If there are port conflicts, installation may be blocked. To fix, free up the ports or assign a new port number for Magnet Message. Refer to instructions in the ‘troubleshooting’ doc provided in the distribution for details. 
- - In some situations, re-installing Magnet Message on a system may fail if the processes on the previous installation were not stopped properly prior to deletion. To fix, STOP the Magnet Message server. Refer to instructions in the ‘troubleshooting’ doc provided in the distribution for details.
- - In some situations, install may fail if the database is not running. Verify that MySQL is installed and running before installing Magnet Message on the system.    
- - Magnet messaging server has a write buffer of 5 MB per connected client. If a mobile client is too slow to consume messages addressed to it, then the message buffers on the server side start filling up; after the client's message buffer exceeds 5 MB the server will deem the client session to be stalled and will disconnect the client. You can manage this mechanism for throttling messages using the following two properties:
-    - disable.kill.stalled.sessions: If set to true, the server will not disconnect clients. 
-    - session.stalled.cap: Use this to specify the message buffer threshold in bytes; if this is exceeded, the server disconnects the client. 
- - In some situations, ”Path too long" error is shown when extracting mmx-standalone-dist-win.zip on Windows environments. This occurs when server install runs into the 260 character path name limit affecting all Windows operating systems when extracting the mmx-standalone-dist-win.zip due to the nested dependency structure of node.js. To fix this issue, extract the zip file into directories with a shorter path. 
-
----
-
-##Ports
-  For a list of ports or to change the default ports refer to ‘troubleshooting’ in this distribution.
-
----
-
-##View Magnet Message Web Interface
-  Messaging: http://127.0.0.1:3000/ (3000 is the default port number)
-
-  Administration: http://127.0.0.1:3000/admin (3000 is the default port number)
-
----
-
-##How to start, stop, or restart Magnet Message
-
-  IMPORTANT: You should always start and stop the server with the included batch script (mmx.bat).
-
-  Start
-  Use a Command Prompt and cd to "mmx-standalone-dist-win" in the directory that you have unzipped the zip file to.
-  Execute ".\mmx.bat start".
-
-  Stop
-  Use a Command Prompt and cd to "mmx-standalone-dist-win" in the directory that you have unzipped the zip file to.
-  Execute ".\mmx.bat stop".
-
-  Restart
-  Use a Command Prompt and cd to "mmx-standalone-dist-win" in the directory that you have unzipped the zip file to.
-  Execute ".\mmx.bat restart".
-
----
-
-##Uninstall Magnet Message
-   1. Stop the server (for steps, see ‘troubleshooting’ doc).
-   2. Delete the Magnet Message home: ~/mmx-standalone-dist-<version>
-   3. Remove the MySQL database schema that you have created for Magnet Message.
-
----
-
 ##Documentation
   Detailed documentation can be found at: https://www.magnet.com/developer/magnet-message/
 
