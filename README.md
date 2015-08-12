@@ -104,8 +104,7 @@ For more details on Magnet Message, please visit: https://www.magnet.com/develop
      https://www.magnet.com/contact-us/
 
 
-
-  -------------------------------------------------------------------------------
+---
   Copyright info:
   The contents of this document are subject to change without notice.
   Copyright © 2015 Magnet Systems, Inc.
