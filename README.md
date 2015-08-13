@@ -23,7 +23,7 @@ To use:
 3. Initialize the repo:
 
     ```
-    $ repo init -u git@github.com:magnetsystems/message-repo
+    $ repo init -u https://github.com/magnetsystems/message-repo
     ```
 4. Download the source:
 

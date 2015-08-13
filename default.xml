@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="origin"
-           fetch="ssh://git@github.com/magnetsystems"
+           fetch="https://github.com/magnetsystems"
            />
   <default revision="master"
            remote="origin"
@@ -21,8 +21,8 @@
   <project name="message-ios" />
 
   <!-- sample apps only have a master branch -->
-  <project name="message-samples-android" revision="master" />
-  <project name="message-samples-ios" revision="master" />
+  <project name="message-samples-android" />
+  <project name="message-samples-ios" revision="develop" />
 
   <!-- pseudo-3rd party repos -->
   <project name="message-smack" revision="4.0.7-magnet" />
