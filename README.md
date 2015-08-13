@@ -31,7 +31,7 @@ To use:
     $ repo sync
     ```
  
-For installation or troubleshooting information, refer to ‘troubleshooting’ in this distribution or Magnet Message Developer Guide located on the web at https://www.magnet.com/developer/magnet-message/
+If you run into problems please see our developer guide for [troubleshooting](https://docs.magnet.com/message/troubleshooting/).
 
 ---
 
@@ -79,7 +79,7 @@ For more details on Magnet Message, please visit: https://www.magnet.com/develop
 ---
 
 ##Documentation
-  Detailed documentation can be found at: https://www.magnet.com/developer/magnet-message/
+  Our [developer guide](https://docs.magnet.com/) has great information on using our product.
 
 ---
 
@@ -98,7 +98,7 @@ For more details on Magnet Message, please visit: https://www.magnet.com/develop
      general news and information about Magnet Message, or other products
      from Magnet Systems, please visit our Developer Community: https://www.magnet.com/developer/
 
-   - If you need support please visit: https://www.magnet.com/developer/ and view the Help Center or Forum. 
+   - If you need support please visit our [Help Center](https://helpcenter.magnet.com/hc/en-us) or [Forum](https://helpcenter.magnet.com/hc/communities/public/topics). 
 
    - If you wish to report an issue or bug, please contact us via the link below:
      https://www.magnet.com/contact-us/
