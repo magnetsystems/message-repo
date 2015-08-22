@@ -1,6 +1,6 @@
 #Magnet Message
 
-August 10, 2015
+August 22, 2015
 
 This repo contains a manifest file that can be used by the "repo" script to retrieve the various components of Magnet Message.
 
@@ -31,6 +31,17 @@ To use:
     $ repo sync
     ```
  
+5. Build the platform
+
+    ```
+    $ ( cd message-asmack; ant clean && ./build.bash ) &&
+      ( cd message-smack; gradle clean build ) &&
+      ( cd message-openfire; make ) &&
+      ( cd message-common; mvn -s settings-magnet.xml clean install -DskipTests ) &&
+      ( cd message-server; mvn -s settings-magnet.xml clean install -DskipTests ) &&
+      ( cd message-sdk-java-android; mvn -s settings-magnet.xml clean install -DskipTests )
+    ```
+
 For installation or troubleshooting information, refer to ‘troubleshooting’ in this distribution or Magnet Message Developer Guide located on the web at https://www.magnet.com/developer/magnet-message/
 
 ---
