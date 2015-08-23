@@ -31,7 +31,7 @@ To use:
     $ repo sync
     ```
  
-5. Build the platform
+5. Build from the source
 
     ```
     $ ( cd message-asmack; ant clean && ./build.bash ) &&
